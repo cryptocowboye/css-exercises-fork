@@ -25,10 +25,12 @@ body {
 .button-container {
   margin-top: 10px;
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  margin: 0 auto;
   display: block;
 }
