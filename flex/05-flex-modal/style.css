@@ -70,6 +70,8 @@ button.cancel {
 
 .upper-part {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .lower-part {
@@ -79,4 +81,8 @@ button.cancel {
 
 .the-buttons {
   display: flex;
+}
+
+.header {
+  margin: auto;
 }
