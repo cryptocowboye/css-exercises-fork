@@ -50,6 +50,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  margin-right: 16px;
 }
 
 li {
