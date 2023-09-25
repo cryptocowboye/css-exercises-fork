@@ -28,6 +28,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 0.25em;
 }
 
 button {
@@ -49,9 +50,17 @@ ul {
   display: flex;
 }
 
+li {
+  margin: auto 0.5em;
+}
+
 .profile {
   display: flex;
   margin-left: auto;
   margin-right: 1rem;
   align-items: center;
+}
+
+.notifications {
+  margin-right: 0.5rem;
 }
