@@ -13,7 +13,13 @@ img {
 }
 
 .plants-container {
+  margin: 1em;
   display: flex;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
 }
 
 /* do not edit this footer */
