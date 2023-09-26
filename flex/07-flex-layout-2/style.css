@@ -6,6 +6,20 @@ body {
   flex-direction: column;
 }
 
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .header {
   background: darkmagenta;
   color: white;
@@ -20,7 +34,7 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  width: 200px;
   background: royalblue;
   box-sizing: border-box;
 }
@@ -29,4 +43,23 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 25%;
+  margin: 0.5em;
+  padding: 0.5em;
+  height: 180px;
+  font-size: smaller;
+  min-width: 180px;
+}
+
+.contents {
+  display: flex;
+}
+
+.card-contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  flex: 1;
 }
