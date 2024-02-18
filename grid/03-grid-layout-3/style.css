@@ -17,6 +17,20 @@
 
 .header {
   background-color: #393f4d;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.logo {
+  text-align: left;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-content: center;
+  height: 100%;
+  list-style-type: none;
 }
 
 .menu ul,
