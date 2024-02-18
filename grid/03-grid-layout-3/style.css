@@ -5,6 +5,9 @@
 
 .container {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .container div {
@@ -19,6 +22,7 @@
   background-color: #393f4d;
   display: grid;
   grid-template-columns: 1fr 2fr;
+  grid-column: 1 / -1;
 }
 
 .logo {
@@ -40,6 +44,7 @@
 
 .sidebar {
   background-color: #C50208;
+  grid-row: 2 / 4;
 }
 
 .sidebar .photo {
@@ -69,6 +74,8 @@
 
 .article {
   background-color: #bccbde;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .article p {
@@ -97,6 +104,8 @@
 
 .footer {
   background-color: #393f4d;
+  grid-row: 4;
+  grid-column: 1 /-1;
 }
 
 .footer p {
