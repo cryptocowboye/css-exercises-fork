@@ -55,6 +55,8 @@
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
+  display: grid;
+  align-content: center;
 }
 
 
@@ -63,6 +65,8 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
+  display: grid;
+  align-content: center;
 }
 
 .nav {
